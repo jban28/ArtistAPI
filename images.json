@@ -1,0 +1,947 @@
+[
+  {
+    "url": "/bodies/gardener_1_r",
+    "name": "Gardener 1 (R)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Gardener_1_R.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Gardener_1_R.jpg",
+    "caption": "Gardener 1 (R); pen and crayon on paper; 18 x 18 cm; 2021",
+    "series": "bodies",
+    "sequence": 0
+  },
+  {
+    "url": "/bodies/gardener_1_g",
+    "name": "Gardener 1 (G)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Gardener_1_G.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Gardener_1_G.jpg",
+    "caption": "Gardener 1 (G); pen and crayon on paper; 18 x 18 cm; 2021",
+    "series": "bodies",
+    "sequence": 1
+  },
+  {
+    "url": "/bodies/gardener_1_b",
+    "name": "Gardener 1 (B)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Gardener_1_B.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Gardener_1_B.jpg",
+    "caption": "Gardener 1 (R); pen and crayon on paper; 18 x 18 cm; 2021",
+    "series": "bodies",
+    "sequence": 2
+  },
+  {
+    "url": "/bodies/gardener_2_r",
+    "name": "Gardener 2 (R)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Gardener_2_R.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Gardener_2_R.jpg",
+    "caption": "Gardener 2 (R); pen and crayon on paper; 18 x 18 cm; 2021",
+    "series": "bodies",
+    "sequence": 3
+  },
+  {
+    "url": "/bodies/gardener_2_g",
+    "name": "Gardener 2 (G)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Gardener_2_G.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Gardener_2_G.jpg",
+    "caption": "Gardener 2 (G); pen and crayon on paper; 18 x 18 cm; 2021",
+    "series": "bodies",
+    "sequence": 4
+  },
+  {
+    "url": "/bodies/gardener_2_b",
+    "name": "Gardener 2 (B)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Gardener_2_B.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Gardener_2_B.jpg",
+    "caption": "Gardener 2 (B); pen and crayon on paper; 18 x 18 cm; 2021",
+    "series": "bodies",
+    "sequence": 5
+  },
+  {
+    "url": "/bodies/gardener_3_(r)",
+    "name": "Gardener 3 (R)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Gardener_3_R.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Gardener_3_R.jpg",
+    "caption": "Gardener 3 (R); pen and crayon on paper; 18 x 18 cm; 2021",
+    "series": "bodies",
+    "sequence": 6
+  },
+  {
+    "url": "/bodies/gardener_3_g",
+    "name": "Gardener 3 (G)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Gardener_3_G.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Gardener_3_G.jpg",
+    "caption": "Gardener 3 (G); pen and crayon on paper; 18 x 18 cm; 2021",
+    "series": "bodies",
+    "sequence": 7
+  },
+  {
+    "url": "/bodies/gardener_3_b",
+    "name": "Gardener 3 (B)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Gardener_3_B.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Gardener_3_B.jpg",
+    "caption": "Gardener 3 (B); pen and crayon on paper; 18 x 18 cm; 2021",
+    "series": "bodies",
+    "sequence": 8
+  },
+  {
+    "url": "/bodies/gardener_4_r",
+    "name": "Gardener 4 (R)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Gardener_4_R.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Gardener_4_R.jpg",
+    "caption": "Gardener 4 (R); pen and crayon on paper; 18 x 18 cm; 2021",
+    "series": "bodies",
+    "sequence": 9
+  },
+  {
+    "url": "/bodies/gardener_4_g",
+    "name": "Gardener 4 (G)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Gardener_4_G.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Gardener_4_G.jpg",
+    "caption": "Gardener 4 (G); pen and crayon on paper; 18 x 18 cm; 2021",
+    "series": "bodies",
+    "sequence": 10
+  },
+  {
+    "url": "/bodies/gardener_4_b",
+    "name": "Gardener 4 (B)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Gardener_4_B.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Gardener_4_B.jpg",
+    "caption": "Gardener 4 (B); pen and crayon on paper; 18 x 18 cm; 2021",
+    "series": "bodies",
+    "sequence": 11
+  },
+  {
+    "url": "/bodies/7987419-insect-stag-beetle-isolated-in-white",
+    "name": "7987419-insect-stag-beetle-isolated-in-white",
+    "srcThumb": "Matt Pagett/bodies/thumb/7987419-insect-stag-beetle-isolated-in-white.jpg",
+    "srcFull": "Matt Pagett/bodies/full/7987419-insect-stag-beetle-isolated-in-white.jpg",
+    "caption": "7987419-insect-stag-beetle-isolated-in-white; pen on paper; 21 x 30 cm; 2015",
+    "series": "bodies",
+    "sequence": 12
+  },
+  {
+    "url": "/bodies/insect_safari_-_beetle_04",
+    "name": "Insect_Safari_-_beetle_04",
+    "srcThumb": "Matt Pagett/bodies/thumb/InsectSafari-beetle04.jpg",
+    "srcFull": "Matt Pagett/bodies/full/InsectSafari-beetle04.jpg",
+    "caption": "Insect_Safari_-_beetle_04; pen on paper; 21 x 30 cm; 2015",
+    "series": "bodies",
+    "sequence": 13
+  },
+  {
+    "url": "/bodies/picture_004_Montoya_8-19-9",
+    "name": "Picture 004 Montoya 8-19-9",
+    "srcThumb": "Matt Pagett/bodies/thumb/Picture_004_Montoya_8-19-9.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Picture_004_Montoya_8-19-9.jpg",
+    "caption": "Picture 004 Montoya 8-19-9; pen on paper; 21 x 30 cm; 2015",
+    "series": "bodies",
+    "sequence": 14
+  },
+  {
+    "url": "/bodies/blue_ground_beetle_urjsa",
+    "name": "Blue_Ground_beetle_urjsa",
+    "srcThumb": "Matt Pagett/bodies/thumb/BlueGroundbeetleurjsa.jpg",
+    "srcFull": "Matt Pagett/bodies/full/BlueGroundbeetleurjsa.jpg",
+    "caption": "Blue_Ground_beetle_urjsa; pen on paper; 21 x 30 cm; 2015",
+    "series": "bodies",
+    "sequence": 15
+  },
+  {
+    "url": "/bodies/longicorne",
+    "name": "longicorne",
+    "srcThumb": "Matt Pagett/bodies/thumb/longicorne.jpg",
+    "srcFull": "Matt Pagett/bodies/full/longicorne.jpg",
+    "caption": "longicorne; pen on paper; 21 x 30 cm; 2015",
+    "series": "bodies",
+    "sequence": 16
+  },
+  {
+    "url": "/bodies/il_fullxfull_140575002",
+    "name": "il fullxfull.140575002",
+    "srcThumb": "Matt Pagett/bodies/thumb/il_fullxfull140575002.jpg",
+    "srcFull": "Matt Pagett/bodies/full/il_fullxfull140575002.jpg",
+    "caption": "il fullxfull.140575002; pen on paper; 21 x 30 cm; 2015",
+    "series": "bodies",
+    "sequence": 17
+  },
+  {
+    "url": "/bodies/flip_horizontal_smoker_1",
+    "name": "Flip Horizontal: Smoker 1",
+    "srcThumb": "Matt Pagett/bodies/thumb/Flip_Horizontal_Smoker_1.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Flip_Horizontal_Smoker_1.jpg",
+    "caption": "Flip Horizontal: Smoker 1; charcoal and chalk on 1m x 1.2m cardboard panels; dimensions variable; 2019",
+    "series": "bodies",
+    "sequence": 18
+  },
+  {
+    "url": "/bodies/flip_horizontal_view",
+    "name": "Flip Horizontal: view",
+    "srcThumb": "Matt Pagett/bodies/thumb/Flip_Horizontal_view.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Flip_Horizontal_view.jpg",
+    "caption": "Flip Horizontal: view; charcoal and chalk on 1m x 1.2m cardboard panels; dimensions variable; 2019",
+    "series": "bodies",
+    "sequence": 19
+  },
+  {
+    "url": "/bodies/flip_horizontal_the_smoking_clock",
+    "name": "Flip Horizontal: The Smoking Clock",
+    "srcThumb": "Matt Pagett/bodies/thumb/Flip_Horizontal_The_Smoking_Clock.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Flip_Horizontal_The_Smoking_Clock.jpg",
+    "caption": "Flip Horizontal: The Smoking Clock; charcoal and chalk on 60 x 21 x 30 cm cardboard panels; dimensions variable; 2019",
+    "series": "bodies",
+    "sequence": 20
+  },
+  {
+    "url": "/bodies/jock_1",
+    "name": "Jock 1",
+    "srcThumb": "Matt Pagett/bodies/thumb/Jock_1.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Jock_1.jpg",
+    "caption": "Jock 1; pen on paper; 21 x 21 cm, 2020",
+    "series": "bodies",
+    "sequence": 21
+  },
+  {
+    "url": "/bodies/jock_2",
+    "name": "Jock 2",
+    "srcThumb": "Matt Pagett/bodies/thumb/Jock_2.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Jock_2.jpg",
+    "caption": "Jock 2; pen on paper; 21 x 21 cm, 2020",
+    "series": "bodies",
+    "sequence": 22
+  },
+  {
+    "url": "/bodies/jock_3",
+    "name": "Jock 3",
+    "srcThumb": "Matt Pagett/bodies/thumb/Jock_3.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Jock_3.jpg",
+    "caption": "Jock 3; pen on paper; 21 x 21 cm, 2020",
+    "series": "bodies",
+    "sequence": 23
+  },
+  {
+    "url": "/bodies/shorts_1",
+    "name": "Shorts 1",
+    "srcThumb": "Matt Pagett/bodies/thumb/Shorts_1.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Shorts_1.jpg",
+    "caption": "Shorts 1; pen on paper; 21 x 21 cm, 2020",
+    "series": "bodies",
+    "sequence": 24
+  },
+  {
+    "url": "/bodies/shorts_2",
+    "name": "Shorts 2",
+    "srcThumb": "Matt Pagett/bodies/thumb/Shorts_2.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Shorts_2.jpg",
+    "caption": "Shorts 2; pen on paper; 21 x 21 cm, 2020",
+    "series": "bodies",
+    "sequence": 25
+  },
+  {
+    "url": "/bodies/shorts_3",
+    "name": "Shorts 3",
+    "srcThumb": "Matt Pagett/bodies/thumb/Shorts_3.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Shorts_3.jpg",
+    "caption": "Shorts 3; pen on paper; 21 x 21 cm, 2020",
+    "series": "bodies",
+    "sequence": 26
+  },
+  {
+    "url": "/bodies/trainer_1",
+    "name": "Trainer 1",
+    "srcThumb": "Matt Pagett/bodies/thumb/Trainer_1.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Trainer_1.jpg",
+    "caption": "Trainer 1; pen on paper; 21 x 21 cm, 2020",
+    "series": "bodies",
+    "sequence": 27
+  },
+  {
+    "url": "/bodies/trainer_2",
+    "name": "Trainer 2",
+    "srcThumb": "Matt Pagett/bodies/thumb/Trainer_2.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Trainer_2.jpg",
+    "caption": "Trainer 2; pen on paper; 21 x 21 cm, 2020",
+    "series": "bodies",
+    "sequence": 28
+  },
+  {
+    "url": "/bodies/trainer_3",
+    "name": "Trainer 3",
+    "srcThumb": "Matt Pagett/bodies/thumb/Trainer_3.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Trainer_3.jpg",
+    "caption": "Trainer 3; pen on paper; 21 x 21 cm, 2020",
+    "series": "bodies",
+    "sequence": 29
+  },
+  {
+    "url": "/bodies/sock_1",
+    "name": "Sock 1",
+    "srcThumb": "Matt Pagett/bodies/thumb/Sock_1.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Sock_1.jpg",
+    "caption": "Sock 1; pen on paper; 21 x 21 cm, 2020",
+    "series": "bodies",
+    "sequence": 30
+  },
+  {
+    "url": "/bodies/sock_2",
+    "name": "Sock 2",
+    "srcThumb": "Matt Pagett/bodies/thumb/Sock_2.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Sock_2.jpg",
+    "caption": "Sock 2; pen on paper; 21 x 21 cm, 2020",
+    "series": "bodies",
+    "sequence": 31
+  },
+  {
+    "url": "/bodies/sock_3",
+    "name": "Sock 3",
+    "srcThumb": "Matt Pagett/bodies/thumb/Sock_3.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Sock_3.jpg",
+    "caption": "Sock 3; pen on paper; 21 x 21 cm, 2020",
+    "series": "bodies",
+    "sequence": 32
+  },
+  {
+    "url": "/bodies/trackies_r",
+    "name": "Trackies (R)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Trackies_R.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Trackies_R.jpg",
+    "caption": "Trackies (R); pen and crayon on paper; 21 x 21 cm; 2022",
+    "series": "bodies",
+    "sequence": 33
+  },
+  {
+    "url": "/bodies/trackies_g",
+    "name": "Trackies (G)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Trackies_G.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Trackies_G.jpg",
+    "caption": "Trackies (G); pen and crayon on paper; 21 x 21 cm; 2022",
+    "series": "bodies",
+    "sequence": 34
+  },
+  {
+    "url": "/bodies/trackies_b",
+    "name": "Trackies (B)",
+    "srcThumb": "Matt Pagett/bodies/thumb/Trackies_B.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Trackies_B.jpg",
+    "caption": "Trackies (B); pen and crayon on paper; 21 x 21 cm; 2022",
+    "series": "bodies",
+    "sequence": 35
+  },
+  {
+    "url": "/bodies/backstreet_1r",
+    "name": "Backstreet 1R",
+    "srcThumb": "Matt Pagett/bodies/thumb/Backstreet_1R.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Backstreet_1R.jpg",
+    "caption": "Backstreet 1R; charcoal and pastel on 16 sheets of A4 office paper; 84 x 120 cm; 2017",
+    "series": "bodies",
+    "sequence": 36
+  },
+  {
+    "url": "/bodies/backstreet_2g",
+    "name": "Backstreet 2G",
+    "srcThumb": "Matt Pagett/bodies/thumb/Backstreet_2G.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Backstreet_2G.jpg",
+    "caption": "Backstreet 2G; charcoal and pastel on 16 sheets of A4 office paper; 84 x 120 cm; 2017",
+    "series": "bodies",
+    "sequence": 37
+  },
+  {
+    "url": "/bodies/backstreet_3b",
+    "name": "Backstreet 3B",
+    "srcThumb": "Matt Pagett/bodies/thumb/Backstreet_3B.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Backstreet_3B.jpg",
+    "caption": "Backstreet 3B; charcoal and pastel on 16 sheets of A4 office paper; 105 x 180 cm; 2017",
+    "series": "bodies",
+    "sequence": 38
+  },
+  {
+    "url": "/bodies/backstreet_4r",
+    "name": "Backstreet 4R",
+    "srcThumb": "Matt Pagett/bodies/thumb/Backstreet_4R.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Backstreet_4R.jpg",
+    "caption": "Backstreet 4R; charcoal and pastel on 16 sheets of A4 office paper; 105 x 90 cm; 2017",
+    "series": "bodies",
+    "sequence": 39
+  },
+  {
+    "url": "/bodies/backstreet_5b",
+    "name": "Backstreet 5B",
+    "srcThumb": "Matt Pagett/bodies/thumb/Backstreet_5B.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Backstreet_5B.jpg",
+    "caption": "Backstreet 5B; charcoal and pastel on 16 sheets of A4 office paper; 63 x 90 cm; 2017",
+    "series": "bodies",
+    "sequence": 40
+  },
+  {
+    "url": "/bodies/glove_for_a_film",
+    "name": "Glove for a Film",
+    "srcThumb": "Matt Pagett/bodies/thumb/Glove_for_a_Film.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Glove_for_a_Film.jpg",
+    "caption": "Glove for a Film; pen on paper; 21 x 30 cm; 2022",
+    "series": "bodies",
+    "sequence": 41
+  },
+  {
+    "url": "/bodies/fight_for_a_cassette",
+    "name": "Fight for a Cassette",
+    "srcThumb": "Matt Pagett/bodies/thumb/Fight_for_a_Cassette.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Fight_for_a_Cassette.jpg",
+    "caption": "Fight for a Cassette; pen on paper; 30 x 42 cm; 2022",
+    "series": "bodies",
+    "sequence": 42
+  },
+  {
+    "url": "/bodies/dear_david_1",
+    "name": "Dear David 1",
+    "srcThumb": "Matt Pagett/bodies/thumb/Dear_David_1.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Dear_David_1.jpg",
+    "caption": "Dear David 1; pen on paper; 40 x 60 cm; 2016",
+    "series": "bodies",
+    "sequence": 43
+  },
+  {
+    "url": "/bodies/dear_david_2",
+    "name": "Dear David 2",
+    "srcThumb": "Matt Pagett/bodies/thumb/Dear_David_2.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Dear_David_2.jpg",
+    "caption": "Dear David 2; pen on paper; 40 x 60 cm; 2016",
+    "series": "bodies",
+    "sequence": 44
+  },
+  {
+    "url": "/bodies/dear_david_3",
+    "name": "Dear David 3",
+    "srcThumb": "Matt Pagett/bodies/thumb/Dear_David_3.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Dear_David_3.jpg",
+    "caption": "Dear David 3; pen on paper; 40 x 60 cm; 2016",
+    "series": "bodies",
+    "sequence": 45
+  },
+  {
+    "url": "/bodies/dear_david_4",
+    "name": "Dear David 4",
+    "srcThumb": "Matt Pagett/bodies/thumb/Dear_David_4.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Dear_David_4.jpg",
+    "caption": "Dear David 4; pen on paper; 40 x 60 cm; 2016",
+    "series": "bodies",
+    "sequence": 46
+  },
+  {
+    "url": "/bodies/dear_david_5",
+    "name": "Dear David 5",
+    "srcThumb": "Matt Pagett/bodies/thumb/Dear_David_5.jpg",
+    "srcFull": "Matt Pagett/bodies/full/Dear_David_5.jpg",
+    "caption": "Dear David 5; pen on paper; 40 x 60 cm; 2016",
+    "series": "bodies",
+    "sequence": 47
+  },
+  {
+    "url": "/flowers/sweet_pea_sometimes",
+    "name": "Sweet Pea (Sometimes)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sweet_Pea_Sometimes.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sweet_Pea_Sometimes.jpg",
+    "caption": "Sweet Pea (Sometimes); pen on paper; 29 x 29 cm; 2020",
+    "series": "flowers",
+    "sequence": 0
+  },
+  {
+    "url": "/flowers/sweet_pea_always",
+    "name": "Sweet Pea (Always)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sweet_Pea_Always.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sweet_Pea_Always.jpg",
+    "caption": "Sweet Pea (Always); pen on paper; 29 x 29 cm; 2020",
+    "series": "flowers",
+    "sequence": 1
+  },
+  {
+    "url": "/flowers/sweet_pea_never",
+    "name": "Sweet Pea (Never)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sweet_Pea_Never.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sweet_Pea_Never.jpg",
+    "caption": "Sweet Pea (Never); pen on paper; 29 x 29 cm; 2020",
+    "series": "flowers",
+    "sequence": 2
+  },
+  {
+    "url": "/flowers/geranium_cut_1",
+    "name": "Geranium Cut 1",
+    "srcThumb": "Matt Pagett/flowers/thumb/Geranium_Cut_1.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Geranium_Cut_1.jpg",
+    "caption": "Geranium Cut 1; pen on paper; 29 x 29 cm; 2021",
+    "series": "flowers",
+    "sequence": 3
+  },
+  {
+    "url": "/flowers/geranium_cut_2",
+    "name": "Geranium Cut 2",
+    "srcThumb": "Matt Pagett/flowers/thumb/Geranium_Cut_2.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Geranium_Cut_2.jpg",
+    "caption": "Geranium Cut 2; pen on paper; 29 x 29 cm; 2021",
+    "series": "flowers",
+    "sequence": 4
+  },
+  {
+    "url": "/flowers/geranium_cut_3",
+    "name": "Geranium Cut 3",
+    "srcThumb": "Matt Pagett/flowers/thumb/Geranium_Cut_3.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Geranium_Cut_3.jpg",
+    "caption": "Geranium Cut 3; pen on paper; 29 x 29 cm; 2021",
+    "series": "flowers",
+    "sequence": 5
+  },
+  {
+    "url": "/flowers/begonia_flash_r",
+    "name": "Begonia Flash R",
+    "srcThumb": "Matt Pagett/flowers/thumb/Begonia_Flash_R.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Begonia_Flash_R.jpg",
+    "caption": "Begonia Flash R; pen and crayon on paper; 29 x 29 cm; 2021",
+    "series": "flowers",
+    "sequence": 6
+  },
+  {
+    "url": "/flowers/begonia_flash_g",
+    "name": "Begonia Flash G",
+    "srcThumb": "Matt Pagett/flowers/thumb/Begonia_Flash_G.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Begonia_Flash_G.jpg",
+    "caption": "Begonia Flash G; pen and crayon on paper; 29 x 29 cm; 2021",
+    "series": "flowers",
+    "sequence": 7
+  },
+  {
+    "url": "/flowers/begonia_flash_b",
+    "name": "Begonia Flash B",
+    "srcThumb": "Matt Pagett/flowers/thumb/Begonia_Flash_B.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Begonia_Flash_B.jpg",
+    "caption": "Begonia Flash B; pen and crayon on paper; 29 x 29 cm; 2021",
+    "series": "flowers",
+    "sequence": 8
+  },
+  {
+    "url": "/flowers/rose_before",
+    "name": "Rose (Before)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_Before.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_Before.jpg",
+    "caption": "Rose (Before); pen on paper; 29 x 29 cm; 2020",
+    "series": "flowers",
+    "sequence": 9
+  },
+  {
+    "url": "/flowers/rose_during",
+    "name": "Rose (During)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_During.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_During.jpg",
+    "caption": "Rose (During); pen on paper; 29 x 29 cm; 2020",
+    "series": "flowers",
+    "sequence": 10
+  },
+  {
+    "url": "/flowers/rose_after",
+    "name": "Rose (After)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_After.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_After.jpg",
+    "caption": "Rose (After); pen on paper; 29 x 29 cm; 2020",
+    "series": "flowers",
+    "sequence": 11
+  },
+  {
+    "url": "/flowers/marigold_ar",
+    "name": "Marigold AR",
+    "srcThumb": "Matt Pagett/flowers/thumb/Marigold_AR.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Marigold_AR.jpg",
+    "caption": "Marigold AR; pen and crayon on paper; 29 x 29 cm; 2021",
+    "series": "flowers",
+    "sequence": 12
+  },
+  {
+    "url": "/flowers/marigold_bg",
+    "name": "Marigold BG",
+    "srcThumb": "Matt Pagett/flowers/thumb/Marigold_BG.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Marigold_BG.jpg",
+    "caption": "Marigold BG; pen and crayon on paper; 29 x 29 cm; 2021",
+    "series": "flowers",
+    "sequence": 13
+  },
+  {
+    "url": "/flowers/marigold_cb",
+    "name": "Marigold CB",
+    "srcThumb": "Matt Pagett/flowers/thumb/Marigold_CB.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Marigold_CB.jpg",
+    "caption": "Marigold CB; pen and crayon on paper; 29 x 29 cm; 2021",
+    "series": "flowers",
+    "sequence": 14
+  },
+  {
+    "url": "/flowers/rose_screen_r",
+    "name": "Rose Screen R",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_Screen_R.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_Screen_R.jpg",
+    "caption": "Rose Screen R; pen and crayon on paper; 29 x 29 cm; 2020",
+    "series": "flowers",
+    "sequence": 15
+  },
+  {
+    "url": "/flowers/rose_screen_g",
+    "name": "Rose Screen G",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_Screen_G.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_Screen_G.jpg",
+    "caption": "Rose Screen G; pen and crayon on paper; 29 x 29 cm; 2020",
+    "series": "flowers",
+    "sequence": 16
+  },
+  {
+    "url": "/flowers/rose_screen_b",
+    "name": "Rose Screen B",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_Screen_B.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_Screen_B.jpg",
+    "caption": "Rose Screen B; pen and crayon on paper; 29 x 29 cm; 2020",
+    "series": "flowers",
+    "sequence": 17
+  },
+  {
+    "url": "/flowers/lobelia_beginning",
+    "name": "Lobelia (Beginning)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Lobelia_Beginning.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Lobelia_Beginning.jpg",
+    "caption": "Lobelia (Beginning); pen on paper; 20 x 24 cm; 2020",
+    "series": "flowers",
+    "sequence": 18
+  },
+  {
+    "url": "/flowers/lobelia_middle",
+    "name": "Lobelia (Middle)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Lobelia_Middle.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Lobelia_Middle.jpg",
+    "caption": "Lobelia (Middle); pen on paper; 20 x 24 cm; 2020",
+    "series": "flowers",
+    "sequence": 19
+  },
+  {
+    "url": "/flowers/lobelia_end",
+    "name": "Lobelia (End)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Lobelia_End.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Lobelia_End.jpg",
+    "caption": "Lobelia (End); pen on paper; 20 x 24 cm; 2020",
+    "series": "flowers",
+    "sequence": 20
+  },
+  {
+    "url": "/flowers/rose_screen_1",
+    "name": "Rose Screen 1",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_Screen_1.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_Screen_1.jpg",
+    "caption": "Rose Screen 1; pen and pencil on paper; 29 x 29 cm; 2020",
+    "series": "flowers",
+    "sequence": 21
+  },
+  {
+    "url": "/flowers/rose_screen_2",
+    "name": "Rose Screen 2",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_Screen_2.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_Screen_2.jpg",
+    "caption": "Rose Screen 2; pen and pencil on paper; 29 x 29 cm; 2020",
+    "series": "flowers",
+    "sequence": 22
+  },
+  {
+    "url": "/flowers/rose_screen_3",
+    "name": "Rose Screen 3",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_Screen_3.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_Screen_3.jpg",
+    "caption": "Rose Screen C; pen and pencil on paper; 29 x 29 cm; 2020",
+    "series": "flowers",
+    "sequence": 23
+  },
+  {
+    "url": "/flowers/flower_for_a_funeral_rose",
+    "name": "Flower for a Funeral (Rose)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Flower_for_a_Funeral_Rose.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Flower_for_a_Funeral_Rose.jpg",
+    "caption": "Flower for a Funeral (Rose); crayon and charcoal on paper; 42 x 60 cm; 2022",
+    "series": "flowers",
+    "sequence": 24
+  },
+  {
+    "url": "/flowers/flower_for_a_funeral_eucalyptus",
+    "name": "Flower for a Funeral (Eucalyptus)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Flower_for_a_Funeral_Eucalyptus.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Flower_for_a_Funeral_Eucalyptus.jpg",
+    "caption": "Flower for a Funeral (Eucalyptus); crayon and charcoal on paper; 42 x 60 cm; 2022",
+    "series": "flowers",
+    "sequence": 25
+  },
+  {
+    "url": "/flowers/flower_for_a_funeral_daffodil",
+    "name": "Flower for a Funeral (Daffodil)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Flower_for_a_Funeral_Daffodil.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Flower_for_a_Funeral_Daffodil.jpg",
+    "caption": "Flower for a Funeral (Daffodil); crayon and charcoal on paper; 42 x 60 cm; 2022",
+    "series": "flowers",
+    "sequence": 26
+  },
+  {
+    "url": "/flowers/kl10_flower_for_a_flowerbed_southwark_park_london_acanthus",
+    "name": "KL10: Flower for a Flowerbed, Southwark Park, London (Acanthus)",
+    "srcThumb": "Matt Pagett/flowers/thumb/KL10_Flower_for_a_Flowerbed_Southwark_Park_London_Acanthus.jpg",
+    "srcFull": "Matt Pagett/flowers/full/KL10_Flower_for_a_Flowerbed_Southwark_Park_London_Acanthus.jpg",
+    "caption": "KL10: Flower for a Flowerbed, Southwark Park, London (Acanthus); hand-coloured photolithograph; 30 x 42 cm; 2012",
+    "series": "flowers",
+    "sequence": 27
+  },
+  {
+    "url": "/flowers/kl10_flower_for_a_flowerbed_southwark_park_london_coleus",
+    "name": "KL10: Flower for a Flowerbed, Southwark Park, London (Coleus)",
+    "srcThumb": "Matt Pagett/flowers/thumb/KL10_Flower_for_a_Flowerbed_Southwark_Park_London_Coleus.jpg",
+    "srcFull": "Matt Pagett/flowers/full/KL10_Flower_for_a_Flowerbed_Southwark_Park_London_Coleus.jpg",
+    "caption": "KL10: Flower for a Flowerbed, Southwark Park, London (Coleus); hand-coloured photolithograph; 30 x 42 cm; 2012",
+    "series": "flowers",
+    "sequence": 28
+  },
+  {
+    "url": "/flowers/kl10_flower_for_a_flowerbed_southwark_park_london_delphinium",
+    "name": "KL10: Flower for a Flowerbed, Southwark Park, London (Delphinium)",
+    "srcThumb": "Matt Pagett/flowers/thumb/KL10_Flower_for_a_Flowerbed_Southwark_Park_London_Delphinium.jpg",
+    "srcFull": "Matt Pagett/flowers/full/KL10_Flower_for_a_Flowerbed_Southwark_Park_London_Delphinium.jpg",
+    "caption": "KL10: Flower for a Flowerbed, Southwark Park, London (Delphinium); hand-coloured photolithograph; 30 x 42 cm; 2012",
+    "series": "flowers",
+    "sequence": 29
+  },
+  {
+    "url": "/flowers/kl10_flower_for_a_flowerbed_southwark_park_london_lavender",
+    "name": "KL10: Flower for a Flowerbed, Southwark Park, London (Lavender)",
+    "srcThumb": "Matt Pagett/flowers/thumb/KL10_Flower_for_a_Flowerbed_Southwark_Park_London_Lavender.jpg",
+    "srcFull": "Matt Pagett/flowers/full/KL10_Flower_for_a_Flowerbed_Southwark_Park_London_Lavender.jpg",
+    "caption": "KL10: Flower for a Flowerbed, Southwark Park, London (Lavender); hand-coloured photolithograph; 30 x 42 cm; 2012",
+    "series": "flowers",
+    "sequence": 30
+  },
+  {
+    "url": "/flowers/kl10_flower_for_a_flowerbed_southwark_park_london_sempervium",
+    "name": "KL10: Flower for a Flowerbed, Southwark Park, London (Sempervivum)",
+    "srcThumb": "Matt Pagett/flowers/thumb/KL10_Flower_for_a_Flowerbed_Southwark_Park_London_Sempervivum.jpg",
+    "srcFull": "Matt Pagett/flowers/full/KL10_Flower_for_a_Flowerbed_Southwark_Park_London_Sempervivum.jpg",
+    "caption": "KL10: Flower for a Flowerbed, Southwark Park, London (Sempervivum); hand-coloured photolithograph; 30 x 42 cm; 2012",
+    "series": "flowers",
+    "sequence": 31
+  },
+  {
+    "url": "/flowers/kl10_flower_for_a_flowerbed_southwark_park_london_snapdragon",
+    "name": "KL10: Flower for a Flowerbed, Southwark Park, London (Snapdragon)",
+    "srcThumb": "Matt Pagett/flowers/thumb/KL10_Flower_for_a_Flowerbed_Southwark_Park_London_Snapdragon.jpg",
+    "srcFull": "Matt Pagett/flowers/full/KL10_Flower_for_a_Flowerbed_Southwark_Park_London_Snapdragon.jpg",
+    "caption": "KL10: Flower for a Flowerbed, Southwark Park, London (Snapdragon); hand-coloured photolithograph; 30 x 42 cm; 2012",
+    "series": "flowers",
+    "sequence": 32
+  },
+  {
+    "url": "/flowers/rose_from_a_petrol_station_1",
+    "name": "Rose from a petrol station 1",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_from_a_petrol_station_1.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_from_a_petrol_station_1.jpg",
+    "caption": "Rose from a petrol station 1; crayon and charcoal on paper; 83 x 83 cm; 2021",
+    "series": "flowers",
+    "sequence": 33
+  },
+  {
+    "url": "/flowers/rose_from_a_petrol_station_2",
+    "name": "Rose from a petrol station 2",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_from_a_petrol_station_2.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_from_a_petrol_station_2.jpg",
+    "caption": "Rose from a petrol station 2; crayon and charcoal on paper; 83 x 83 cm; 2021",
+    "series": "flowers",
+    "sequence": 34
+  },
+  {
+    "url": "/flowers/rose_in_my_neighbours_garden_1",
+    "name": "Rose in my neighbour's garden 1",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_in_my_neighbours_garden_1.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_in_my_neighbours_garden_1.jpg",
+    "caption": "Rose in my neighbour's garden 1; crayon and charcoal on paper; 74 x 74 cm; 2021",
+    "series": "flowers",
+    "sequence": 35
+  },
+  {
+    "url": "/flowers/rose_in_my_garden_1",
+    "name": "Rose in my garden 1",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_in_my_garden_1.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_in_my_garden_1.jpg",
+    "caption": "Rose in my garden 1; crayon and charcoal on paper; 49 x 49 cm; 2021",
+    "series": "flowers",
+    "sequence": 36
+  },
+  {
+    "url": "/flowers/rose_overhanging_an_allotment_1",
+    "name": "Rose overhanging an allotment 1",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_overhanging_an_allotment_1.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_overhanging_an_allotment_1.jpg",
+    "caption": "Rose overhanging an allotment 1; crayon and charcoal on paper; 42 x 42 cm; 2021",
+    "series": "flowers",
+    "sequence": 37
+  },
+  {
+    "url": "/flowers/rose_in_my_garden_2",
+    "name": "Rose in my garden 2",
+    "srcThumb": "Matt Pagett/flowers/thumb/Rose_in_my_garden_2.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Rose_in_my_garden_2.jpg",
+    "caption": "Rose in my garden 2; crayon and charcoal on paper; 36 x 36 cm; 2021",
+    "series": "flowers",
+    "sequence": 38
+  },
+  {
+    "url": "/flowers/roses_in_a_monastery_exhibition_view_1",
+    "name": "Roses in a Monastery exhibition view",
+    "srcThumb": "Matt Pagett/flowers/thumb/Roses_in_a_Monastery_exhibition_view.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Roses_in_a_Monastery_exhibition_view.jpg",
+    "caption": "Roses in a Monastery exhibition view, 2021",
+    "series": "flowers",
+    "sequence": 39
+  },
+  {
+    "url": "/flowers/roses_in_a_monastery_exhibition_view_2",
+    "name": "Roses in a Monastery exhibition view",
+    "srcThumb": "Matt Pagett/flowers/thumb/Roses_in_a_Monastery_exhibition_view.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Roses_in_a_Monastery_exhibition_view.jpg",
+    "caption": "Roses in a Monastery exhibition view, 2021",
+    "series": "flowers",
+    "sequence": 40
+  },
+  {
+    "url": "/flowers/roses_in_a_monastery_exhibition_view_3",
+    "name": "Roses in a Monastery exhibition view",
+    "srcThumb": "Matt Pagett/flowers/thumb/Roses_in_a_Monastery_exhibition_view.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Roses_in_a_Monastery_exhibition_view.jpg",
+    "caption": "Roses in a Monastery exhibition view, 2021",
+    "series": "flowers",
+    "sequence": 41
+  },
+  {
+    "url": "/flowers/daffodil_red_and_black",
+    "name": "Daffodil (Red and Black)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Daffodil_Red_and_Black.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Daffodil_Red_and_Black.jpg",
+    "caption": "Daffodil (Red and Black); pen on paper; 26 x 26 cm; 2022",
+    "series": "flowers",
+    "sequence": 42
+  },
+  {
+    "url": "/flowers/hydrangea_green_and_black",
+    "name": "Hydrangea (Green and Black)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Hydrangea_Green_and_Black.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Hydrangea_Green_and_Black.jpg",
+    "caption": "Hydrangea (Green and Black); pen on paper; 26 x 26 cm; 2022",
+    "series": "flowers",
+    "sequence": 43
+  },
+  {
+    "url": "/flowers/amaryllis_blue_and_black",
+    "name": "Amaryllis (Blue and Black)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Amaryllis_Blue_and_Black.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Amaryllis_Blue_and_Black.jpg",
+    "caption": "Amaryllis (Blue and Black); pen on paper; 26 x 26 cm; 2022",
+    "series": "flowers",
+    "sequence": 44
+  },
+  {
+    "url": "/flowers/sub_rosa_7557d8",
+    "name": "Sub Rosa (7557d8)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sub_Rosa_7557d8.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sub_Rosa_7557d8.jpg",
+    "caption": "Sub Rosa (7557d8); pen on paper; 30 x 42 cm; 2014",
+    "series": "flowers",
+    "sequence": 45
+  },
+  {
+    "url": "/flowers/sub_rosa_75508",
+    "name": "Sub Rosa (75508)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sub_Rosa_75508.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sub_Rosa_75508.jpg",
+    "caption": "Sub Rosa (75508); pen on paper; 30 x 42 cm; 2014",
+    "series": "flowers",
+    "sequence": 46
+  },
+  {
+    "url": "/flowers/sub_rosa_2627319",
+    "name": "Sub Rosa (2627319)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sub_Rosa_2627319.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sub_Rosa_2627319.jpg",
+    "caption": "Sub Rosa (2627319); pen on paper; 30 x 42 cm; 2014",
+    "series": "flowers",
+    "sequence": 47
+  },
+  {
+    "url": "/flowers/sub_rosa_170d956",
+    "name": "Sub Rosa (170d956)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sub_Rosa_170d956.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sub_Rosa_170d956.jpg",
+    "caption": "Sub Rosa (170d956); pen on paper; 30 x 42 cm; 2014",
+    "series": "flowers",
+    "sequence": 48
+  },
+  {
+    "url": "/flowers/sub_rosa_8733939",
+    "name": "Sub Rosa (8733939)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sub_Rosa_8733939.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sub_Rosa_8733939.jpg",
+    "caption": "Sub Rosa (8733939); pen on paper; 30 x 42 cm; 2014",
+    "series": "flowers",
+    "sequence": 49
+  },
+  {
+    "url": "/flowers/sub_rosa_singleRose-wallpaper-background",
+    "name": "Sub Rosa (SingleRose-wallpaper-Background)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sub_Rosa_SingleRose-wallpaper-Background.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sub_Rosa_SingleRose-wallpaper-Background.jpg",
+    "caption": "Sub Rosa (SingleRose-wallpaper-Background); pen on paper; 30 x 42 cm; 2014",
+    "series": "flowers",
+    "sequence": 50
+  },
+  {
+    "url": "/flowers/sub_rosa_75581a",
+    "name": "Sub Rosa (75581a)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sub_Rosa_75581a.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sub_Rosa_75581a.jpg",
+    "caption": "Sub Rosa (75581a); pen on paper; 30 x 42 cm; 2014",
+    "series": "flowers",
+    "sequence": 51
+  },
+  {
+    "url": "/flowers/sub_rosa_1172926",
+    "name": "Sub Rosa (1172926)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sub_Rosa_1172926.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sub_Rosa_1172926.jpg",
+    "caption": "Sub Rosa (1172926); pen on paper; 30 x 42 cm; 2014",
+    "series": "flowers",
+    "sequence": 52
+  },
+  {
+    "url": "/flowers/sub_rosa_rose5",
+    "name": "Sub Rosa (Rose5)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sub_Rosa_Rose5.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sub_Rosa_Rose5.jpg",
+    "caption": "Sub Rosa (Rose5); pen on paper; 30 x 42 cm; 2014",
+    "series": "flowers",
+    "sequence": 53
+  },
+  {
+    "url": "/flowers/sub_rosa_8534670",
+    "name": "Sub Rosa (8534670)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sub_Rosa_8534670.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sub_Rosa_8534670.jpg",
+    "caption": "Sub Rosa (8534670); pen on paper; 30 x 42 cm; 2014",
+    "series": "flowers",
+    "sequence": 54
+  },
+  {
+    "url": "/flowers/sub_rosa_755234",
+    "name": "Sub Rosa (755234)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sub_Rosa_755234.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sub_Rosa_755234.jpg",
+    "caption": "Sub Rosa (755234); pen on paper; 30 x 42 cm; 2014",
+    "series": "flowers",
+    "sequence": 55
+  },
+  {
+    "url": "/flowers/sub_rosa_754fd8",
+    "name": "Sub Rosa (754fd8)",
+    "srcThumb": "Matt Pagett/flowers/thumb/Sub_Rosa_754fd8.jpg",
+    "srcFull": "Matt Pagett/flowers/full/Sub_Rosa_754fd8.jpg",
+    "caption": "Sub Rosa (754fd8); pen on paper; 30 x 42 cm; 2014",
+    "series": "flowers",
+    "sequence": 56
+  }
+]
