@@ -18,8 +18,8 @@ db_uri = config["databaseURI"]
 
 
 file_client = boto3.client("s3", 
-             aws_access_key_id="AKIAQY7FHAWDLKKY6A7M", 
-             aws_secret_access_key="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"
+             aws_access_key_id=config["aws_access_key_id"], 
+             aws_secret_access_key=config["aws_secret_access_key"]
              )
 
 dbclient = pymongo.MongoClient(db_uri, server_api=pymongo.server_api.ServerApi('1'))
