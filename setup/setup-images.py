@@ -23,11 +23,11 @@ for image in images_json:
         elif not (char.isalnum() or (char == "-")):
             url = url.replace(char, "")
 
-    new_file_path = f"Matt Pagett/{image['series']}/full/{url}.jpg"
+    new_file_path = f"Matt_Pagett/{image['series']}/full/{url}.jpg"
     image_file.save(f"{new_image_folder}{new_file_path}")
     image_file.close()
 
-    new_thumb_path = f"Matt Pagett/{image['series']}/thumb/{url}.jpg"
+    new_thumb_path = f"Matt_Pagett/{image['series']}/thumb/{url}.jpg"
     thumb_file.save(f"{new_image_folder}{new_thumb_path}")
     thumb_file.close()
 

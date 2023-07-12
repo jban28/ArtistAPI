@@ -1,0 +1,5 @@
+{
+  "databaseURI": "mongodb+srv://jban28:uRE3qnUHN8htLoMJ@jban28mongodb.zztm45h.mongodb.net/?retryWrites=true&w=majority",
+  "secretKey": "secret_key",
+  "rootURL": "https://artist-api.s3.amazonaws.com"
+}
