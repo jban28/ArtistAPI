@@ -943,5 +943,77 @@
     "caption": "Sub Rosa (754fd8); pen on paper; 30 x 42 cm; 2014",
     "series": "flowers",
     "sequence": 56
+  },
+  {
+    "url": "/designs/life_drawing",
+    "name": "Life drawing",
+    "srcThumb": "Matt_Pagett/designs/thumb/360_design_1.jpg",
+    "srcFull": "Matt_Pagett/designs/full/2480_design_1.jpg",
+    "caption": "Flyers and posters I designed for the men-only life drawing sessions I organise. The sessions started out in London's last-remaining leather bar before moving to a hair salon in Dalston.",
+    "series": "designs",
+    "sequence": 0
+  },
+  {
+    "url": "/designs/arthouse_unlimited",
+    "name": "Arthouse Unlimited",
+    "srcThumb": "Matt_Pagett/designs/thumb/360_design_2.jpg",
+    "srcFull": "Matt_Pagett/designs/full/2480_design_2.jpg",
+    "caption": "Arthouse Unlimited [LINK] is an art-based charity working with neurodiverse adults, some of whom have further physical disabilities. I worked there both as an art instructor and packaging designer/artworker.",
+    "series": "designs",
+    "sequence": 1
+  },
+  {
+    "url": "/designs/jubilee_park",
+    "name": "Jubilee Park",
+    "srcThumb": "Matt_Pagett/designs/thumb/360_design_3.jpg",
+    "srcFull": "Matt_Pagett/designs/full/2480_design_3.jpg",
+    "caption": "These illustrations, based on aspects of Jubilee Park in Leyton, London, were sand-blasted onto cement blocks, paired with taller information pillars and positioned around the park to mark out a new woodland walk.",
+    "series": "designs",
+    "sequence": 2
+  },
+  {
+    "url": "/designs/waltham_forest",
+    "name": "Waltham Forest",
+    "srcThumb": "Matt_Pagett/designs/thumb/360_design_4.jpg",
+    "srcFull": "Matt_Pagett/designs/full/2480_design_4.jpg",
+    "caption": "Further illustrations for two print projects in Waltham Forest, London. The first was a map of a local stream, the second a booklet about Jubilee Park.",
+    "series": "designs",
+    "sequence": 3
+  },
+  {
+    "url": "/designs/books_1",
+    "name": "Books 1",
+    "srcThumb": "Matt_Pagett/designs/thumb/360_design_5.jpg",
+    "srcFull": "Matt_Pagett/designs/full/2480_design_5.jpg",
+    "caption": "Spreads from the six books I wrote and illustrated.",
+    "series": "designs",
+    "sequence": 4
+  },
+  {
+    "url": "/designs/books_2",
+    "name": "Books 2",
+    "srcThumb": "Matt_Pagett/designs/thumb/360_design_6.jpg",
+    "srcFull": "Matt_Pagett/designs/full/2480_design_6.jpg",
+    "caption": "Terror: A Consideration - a 64-page book I wrote and designed about the uses and abuses of terror;   Run and Become - a 140-page book I designed and edited as part of a University of Sussex project examining why people run marathons.",
+    "series": "designs",
+    "sequence": 5
+  },
+  {
+    "url": "/designs/books_3",
+    "name": "Books 3",
+    "srcThumb": "Matt_Pagett/designs/thumb/360_design_7.jpg",
+    "srcFull": "Matt_Pagett/designs/full/2480_design_7.jpg",
+    "caption": "A selection from some of the 25+ books I've illustrated.",
+    "series": "designs",
+    "sequence": 6
+  },
+  {
+    "url": "/designs/dissertation",
+    "name": "Dissertation",
+    "srcThumb": "Matt_Pagett/designs/thumb/360_design_8.jpg",
+    "srcFull": "Matt_Pagett/designs/full/2480_design_8.jpg",
+    "caption": "Compendiu, my 2011 dissertation, was set in a fictional arts centre dedicated to the promotion of unfinished artwork in all its forms.",
+    "series": "designs",
+    "sequence": 8
   }
 ]
