@@ -163,9 +163,22 @@ def delete_image(artist_name, id):
 def update_image(artist_name, id):
     image_collection = db[artist_name]
     updates = {"$set" : request.json}
-    print(updates)
     image_collection.update_one({"_id" : bson.ObjectId(id)}, updates)
     return "complete"
 
+@application.route("/reorder", methods=["PUT"])
+@user_only
+def reorder_images(artist_name):
+    image_collection = db[artist_name]
+    updates = request.json
+    print(updates)
+    for image in updates:
+        update = {"$set" : image["newSequence"]}
+        print(update)
+        image_collection.update_one({"_id": bson.ObjectId(image["_id"])}, update)
+    return "complete"
+
 if __name__ == "__main__":
+    application.debug = True
     application.run()
+
