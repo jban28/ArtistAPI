@@ -63,13 +63,14 @@ def login():
 @application.route("/all-images")
 def all_images():
     image_collection = db[request.args.get("artist")]
-    image_list = []
-    for image in image_collection.find():
+    image_list_return = []
+    image_list = image_collection.find().sort("sequence", -1)
+    for image in image_list:
         image["_id"] = str(image["_id"])
         image["srcFull"] = f"{root_URL}/{image['srcFull']}"
         image["srcThumb"] = f"{root_URL}/{image['srcThumb']}"
-        image_list.append(image)
-    return image_list
+        image_list_return.append(image)
+    return image_list_return
 
 @application.route("/image", methods=["POST"])
 @user_only

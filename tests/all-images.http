@@ -1,1 +1,1 @@
-http://artist-api.bannisterwebservices.co.uk/all-images?artist=Matt_Pagett
+http://localhost:5000/all-images?artist=Matt_Pagett
