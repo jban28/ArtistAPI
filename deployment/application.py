@@ -45,8 +45,9 @@ def user_only(endpoint):
 
 @application.route("/login")
 def login():
-    username = request.args.get("username")
-    password = request.args.get("password")
+    auth = request.headers["Authorization"].split(":")
+    username = auth[0]
+    password = auth[1]
     try:
         user = db["users"].find_one({"username" : username},{"_id":0})
         if sha256(password.encode('utf-8')).hexdigest() == user["password"]:
@@ -196,5 +197,6 @@ def reorder_images(artist_name):
     return "complete"
 
 if __name__ == "__main__":
-    application.run()
+    application.run(debug=True)
+    
 
