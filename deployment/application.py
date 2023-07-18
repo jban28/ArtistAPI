@@ -43,7 +43,7 @@ def user_only(endpoint):
     wrapper.__name__ = endpoint.__name__
     return wrapper
 
-@application.route("/login")
+@application.route("/login", methods=["POST"])
 def login():
     auth = request.headers["Authorization"].split(":")
     username = auth[0]
