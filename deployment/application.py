@@ -17,10 +17,7 @@ root_URL = config["rootURL"]
 db_uri = config["databaseURI"]
 
 
-file_client = boto3.client("s3", 
-             aws_access_key_id=config["aws_access_key_id"], 
-             aws_secret_access_key=config["aws_secret_access_key"]
-             )
+file_client = boto3.client("s3")
 
 dbclient = pymongo.MongoClient(db_uri, server_api=pymongo.server_api.ServerApi('1'))
 db = dbclient["artCollections"]
@@ -106,16 +103,34 @@ def new_image_file(artist_name):
     name = request.form["name"]
     caption = request.form["caption"]
     series = request.form["series"]
-
-    print(series)
-
-    try:
-        image_file = request.files["file"]
-    except:
-        return "File upload failed", 422
     
-    if image_file.content_type != "image/jpeg":
-        return "File must be jpeg", 422
+    if len(request.files) == 2:
+        try:
+            image_file = request.files["file"]
+            thumb_file = request.files["thumb"]
+        except:
+            return "File upload failed", 422
+        
+        if (thumb_file.content_type != "image/jpeg") or (image_file.content_type != "image/jpeg"):
+            return "File must be jpeg", 422
+        
+    elif len(request.files) == 1:
+        try:
+            image_file = request.files["file"]
+        except:
+            return "File upload failed", 422
+        
+        if (image_file.content_type != "image/jpeg"):
+            return "File must be jpeg", 422
+        
+        thumb_file = io.BytesIO()
+        thumb = Image.open(image_file)
+        thumb.thumbnail((360, 360))
+        thumb.save(thumb_file, "JPEG")
+        thumb_file.seek(0)
+    else:
+        return "Incorrect number of files", 422
+
 
     existing_images = db[artist_name].find({"series" : series})
     max_index = 0
@@ -135,22 +150,14 @@ def new_image_file(artist_name):
         elif not (char.isalnum() or (char == "-")):
             url = url.replace(char, "-")
 
-    thumb_file = io.BytesIO()
-    thumb = Image.open(image_file)
-    thumb.thumbnail((360, 360))
-    thumb.save(thumb_file, "JPEG")
-    thumb_file.seek(0)
-
     file_client.upload_fileobj(image_file, 
                                "artist-api", 
-                               f"{artist_name}/{series}/full/{url}.jpg", 
-                               ExtraArgs={'ACL':'public-read'})
+                               f"{artist_name}/{series}/full/{url}.jpg")
 
 
     file_client.upload_fileobj(thumb_file, 
                                "artist-api", 
-                               f"{artist_name}/{series}/thumb/{url}.jpg", 
-                               ExtraArgs={'ACL':'public-read'})
+                               f"{artist_name}/{series}/thumb/{url}.jpg")
 
     image_file.close()
     thumb_file.close()
@@ -173,7 +180,18 @@ def new_image_file(artist_name):
 @user_only
 def delete_image(artist_name, id):
     image_collection = db[artist_name]
+    print(artist_name)
+    image = image_collection.find_one({"_id" : bson.ObjectId(id)})
+    print(image)
+    
+    file_client.delete_object(Bucket="artist-api",
+                              Key=image["s3KeyFull"])
+
+    file_client.delete_object(Bucket="artist-api",
+                              Key=image["s3KeyThumb"])
+
     image_collection.delete_one({"_id" : bson.ObjectId(id)})
+
     return "complete"
 
 @application.route("/image/<id>", methods=["PUT"])

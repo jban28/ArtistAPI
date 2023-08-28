@@ -1,1 +1,2 @@
-get http://localhost:5000/login?username=mattPagett&password=password123
+post http://localhost:5000/login
+Authorization: mattPagett:password123

@@ -1,2 +1,2 @@
-delete http://localhost:5000/image/6470a569502b50e71d2a21be
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcnRpc3QiOiJNYXR0IFBhZ2V0dCJ9.oF_LJAitBBCoa5RO3qzqFOYrPZIAgHAPreBVEXsbOUM
+delete https://artist-api.bannisterwebservices.co.uk/image/64ec91d08100ceaa9a6c638d
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcnRpc3QiOiJNYXR0X1BhZ2V0dCJ9.l44myyxCBHmCpWEYDpVSFexuz4sP5uFHs4x5Ps136Tk
