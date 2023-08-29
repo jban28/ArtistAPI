@@ -169,12 +169,18 @@ def new_image_file(artist_name):
         "srcFull": f"{artist_name}/{series}/full/{url}.jpg",
         "caption": caption,
         "series": series,
-        "sequence" : sequence
+        "sequence" : sequence,
+        "s3KeyFull" : f"{artist_name}/{series}/full/{url}.jpg",
+        "s3KeyThumb" : f"{artist_name}/{series}/thumb/{url}.jpg",
     }
 
     db[artist_name].insert_one(image_data)
 
-    return "complete"
+    image_data["_id"] = str(image_data["_id"])
+    image_data["srcFull"] = f"{root_URL}/{image_data['srcFull']}"
+    image_data["srcThumb"] = f"{root_URL}/{image_data['srcThumb']}"
+
+    return image_data
 
 @application.route("/image/<id>", methods=["DELETE"])
 @user_only
