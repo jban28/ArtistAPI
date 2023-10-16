@@ -1,3 +1,5 @@
 config.json
 deployment.zip
 edit.py
+__pycache__
+ArtistAPI.sock
