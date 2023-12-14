@@ -1,2 +1,2 @@
-post http://localhost:5000/login
-Authorization: mattPagett:password123
+post https://artistapi.bannisterwebservices.co.uk/login
+Authorization: mattPagett:GrwNg7KeCL

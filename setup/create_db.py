@@ -16,7 +16,7 @@ artist.insert_many(json.load(open("setup/images.json", "r")))
 matt = {
     "name" : "Matt_Pagett",
     "username" : "mattPagett",
-    "password" : sha256("password123".encode('utf-8')).hexdigest()
+    "password" : sha256("GrwNg7KeCL".encode('utf-8')).hexdigest()
     }
 
 users.insert_one(matt)
