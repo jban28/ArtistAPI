@@ -18,3 +18,5 @@ jobs:
                 aws-region: eu-west-2
             - run: zip -j lambdaAPI_login.zip ./lambda-api/login.py
             - run: aws lambda update-function-code --function-name=ArtistAPI_login --zip-file=fileb://lambdaAPI_login.zip
+            - run: zip -r lambdaAPI_base.zip ./lambda-api/python
+            - run: aws lambda publish-layer-version --layer-name=ArtistAPI_base --zip-file=fileb://lambdaAPI_base.zip
