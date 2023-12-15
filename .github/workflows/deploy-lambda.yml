@@ -16,5 +16,5 @@ jobs:
                 aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
                 aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
                 aws-region: eu-west-2
-            - run: zip -j lambdaAPI.zip ./lambda-api/login.py
-            - run: aws lambda update-function-code --function-name=ArtistApi --zip-file=fileb://lambdaAPI.zip
+            - run: zip -j lambdaAPI_login.zip ./lambda-api/login.py
+            - run: aws lambda update-function-code --function-name=ArtistAPI_login --zip-file=fileb://lambdaAPI_login.zip
