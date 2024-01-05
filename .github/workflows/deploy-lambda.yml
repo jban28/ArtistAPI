@@ -25,26 +25,39 @@ on:
         branches:
             - main
 jobs:
-   Deploy-API:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout repository
-              uses: actions/checkout@v4
+  check-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      changes: steps.find-changes.outputs.changes
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-            - name: Find modified files
-              id: changed-files
-              uses: tj-actions/changed-files@v41
+      - name: Find modified files
+        id: changed-files
+        uses: tj-actions/changed-files@v41
 
-            - name: Check for changes to code
-              id: check-changes
-              env:
-                ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-              # note: this is a bash script - could be put in separate .sh file
-              run: bash ${GITHUB_WORKSPACE}/.github/scripts/changed-files.sh
-
-            - name: Deploy files
-              env: 
-                FILES_TO_DEPLOY: ${{ steps.check-changes.outputs.files_to_deploy }}
-              run: bash ${GITHUB_WORKSPACE}/.github/scripts/deploy.sh
+      - name: Check for changes to code
+        id: find-changes
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        # note: this is a bash script - could be put in separate .sh file
+        run: bash ${GITHUB_WORKSPACE}/.github/scripts/changed-files.sh
         
-            
+  deploy:
+    runs-on: ubuntu-latest
+    needs: check-changes
+    if: ${{ jobs.check-changes.outputs.modified_files > 0 }}
+    steps:
+      - name: Configure AWS
+        uses: aws-actions/configure-aws-credentials@v2
+        if: steps.check-changes.outputs.file_changed == true
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-2
+
+      - name: Deploy changes
+        env: 
+          FILES_TO_DEPLOY: ${{ steps.check-changes.outputs.files_to_deploy }}
+        run: bash ${GITHUB_WORKSPACE}/.github/scripts/deploy.sh
