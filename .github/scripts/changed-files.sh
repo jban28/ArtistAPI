@@ -1,4 +1,5 @@
 func_files+=($(ls lambda-functions/*.py))
+changed_func_files=()
 
 for file in "${func_files[@]}"
 do
