@@ -51,7 +51,7 @@ jobs:
       - name: test output
         env:
           TEST: ${{ needs.changes.outputs.changes }}
-        run: echo $TEST
+        run: echo "$TEST"
 
   deploy:
     runs-on: ubuntu-latest
@@ -60,7 +60,6 @@ jobs:
     steps:
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v2
-        if: steps.check-changes.outputs.file_changed == true
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
