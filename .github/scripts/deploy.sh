@@ -1,5 +1,3 @@
-FILES_TO_DEPLOY=("lambda-functions/login.py")
-
 for file in "${FILES_TO_DEPLOY[@]}"
 do
     zip -j lambda.zip $file
