@@ -21,7 +21,7 @@ jobs:
         id: find-changes
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-        run: bash .github/scripts/changed-files.sh
+        run: bash .github/scripts/deploy.sh
 
   deploy:
     runs-on: ubuntu-latest
