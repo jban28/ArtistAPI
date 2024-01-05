@@ -1,4 +1,4 @@
-func_files+=($(ls ./lambda-functions/*.py))
+func_files+=($(ls lambda-functions/*.py))
 
 for file in "${func_files[@]}"
 do
