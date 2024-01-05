@@ -44,5 +44,5 @@ jobs:
 
             - name: Output modified lambda function files
               env: 
-                FILES_TO_DEPLOY: ${{ steps.check-changes.outputs.files_to_deploys }}
+                FILES_TO_DEPLOY: ${{ steps.check-changes.outputs.files_to_deploy }}
               run: echo ${FILES_TO_DEPLOY} 
