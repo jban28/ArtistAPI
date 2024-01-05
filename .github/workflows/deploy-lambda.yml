@@ -28,7 +28,7 @@ jobs:
   check-changes:
     runs-on: ubuntu-latest
     outputs:
-      changes: steps.find-changes.outputs.changes
+      changes: $${ steps.find-changes.outputs.changes }
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
