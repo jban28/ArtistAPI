@@ -42,7 +42,7 @@ jobs:
               # note: this is a bash script - could be put in separate .sh file
               run: bash ${GITHUB_WORKSPACE}/.github/scripts/changed-files.sh
 
-            - name: zip files to lambda
+            - name: Deploy files
               env: 
                 FILES_TO_DEPLOY: ${{ steps.check-changes.outputs.files_to_deploy }}
               run: bash ${GITHUB_WORKSPACE}/.github/scripts/deploy.sh
