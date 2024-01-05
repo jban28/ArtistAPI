@@ -9,8 +9,7 @@ do
     fi
 done
 
-num="changes=${#changed_func_files[@]}"
-echo $num
+num="test"
 
 echo files_to_deploy=${changed_func_files[@]} >> $GITHUB_OUTPUT
-echo "${num}" >> $GITHUB_OUTPUT
+echo changes=${num} >> $GITHUB_OUTPUT
