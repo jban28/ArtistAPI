@@ -53,7 +53,8 @@ jobs:
       - name: test output
         env:
           TEST: ${{ needs.changes.outputs.changes }}
-        run: echo $TEST
+        run: |
+        echo $TEST
 
   deploy:
     runs-on: ubuntu-latest
