@@ -42,9 +42,7 @@ jobs:
         id: find-changes
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-        run: |
-          ${GITHUB_WORKSPACE}/.github/scripts/changed-files.sh
-          echo "$ALL_CHANGED_FILES"
+        run: bash ${GITHUB_WORKSPACE}/.github/scripts/changed-files.sh
         
   test:
     runs-on: ubuntu-latest
