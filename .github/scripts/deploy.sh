@@ -1,5 +1,6 @@
 for file in "${FILES_TO_DEPLOY[@]}"
 do
+    echo $file
     zip -j lambda.zip $file
     str="${file%.py}"
     func_name="ArtistAPI_${str#*/}"
