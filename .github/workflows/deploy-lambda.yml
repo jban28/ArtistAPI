@@ -29,6 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       changes: $${ steps.find-changes.outputs.changes }
+      changed_files: $${{ steps.find-changes.outputs.files_to_deploy }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -41,7 +42,6 @@ jobs:
         id: find-changes
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-        # note: this is a bash script - could be put in separate .sh file
         run: bash ${GITHUB_WORKSPACE}/.github/scripts/changed-files.sh
         
   test:
@@ -50,13 +50,13 @@ jobs:
     steps:
       - name: test output
         env:
-          TEST: ${{ needs.changes.outputs.modified_files }}
+          TEST: ${{ needs.changes.outputs.changes }}
         run: echo $TEST
 
   deploy:
     runs-on: ubuntu-latest
     needs: changes
-    if: needs.changes.outputs.modified_files != 0
+    if: needs.changes.outputs.changes != 0
     steps:
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v2
@@ -68,5 +68,5 @@ jobs:
 
       - name: Deploy changes
         env: 
-          FILES_TO_DEPLOY: ${{ steps.check-changes.outputs.files_to_deploy }}
+          FILES_TO_DEPLOY: ${{ needs.find-changes.outputs.files_to_deploy }}
         run: bash ${GITHUB_WORKSPACE}/.github/scripts/deploy.sh
