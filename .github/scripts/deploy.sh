@@ -1,3 +1,4 @@
+echo $FILES_TO_DEPLOY
 for file in "${FILES_TO_DEPLOY[@]}"
 do
     echo $file
