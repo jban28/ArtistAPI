@@ -5,6 +5,5 @@ do
     zip -j lambda.zip $file
     str="${file%.py}"
     func_name="ArtistAPI_${str#*/}"
-    echo $func_name
-    # aws lambda update-function-code --function-name=ArtistAPI_"${file%.py}" --zip-file=fileb://lambdaAPI.zip
+    aws lambda update-function-code --function-name=ArtistAPI_"${file%.py}" --zip-file=fileb://lambdaAPI.zip
 done
