@@ -28,6 +28,9 @@ jobs:
     needs: changes
     if: needs.changes.outputs.changes != '0'
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
       - name: Configure AWS
         uses: aws-actions/configure-aws-credentials@v2
         with:
@@ -38,4 +41,4 @@ jobs:
       - name: Deploy changes
         env: 
           FILES_TO_DEPLOY: ${{ needs.find-changes.outputs.files_to_deploy }}
-        run: bash ./.github/scripts/deploy.sh
+        run: bash .github/scripts/deploy.sh
