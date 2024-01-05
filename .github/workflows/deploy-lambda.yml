@@ -5,6 +5,7 @@ on:
             - main
 jobs:
   changes:
+    name: Check for Changes
     runs-on: ubuntu-latest
     outputs:
       changes: ${{ steps.find-changes.outputs.changes }}
@@ -24,6 +25,7 @@ jobs:
         run: bash .github/scripts/changed-files.sh
 
   deploy:
+    name: Deploy Changes
     runs-on: ubuntu-latest
     needs: changes
     if: needs.changes.outputs.changes != '0'
