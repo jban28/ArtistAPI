@@ -38,4 +38,6 @@ jobs:
       - name: Deploy changes
         env: 
           FILES_TO_DEPLOY: ${{ needs.find-changes.outputs.files_to_deploy }}
-        run: bash .github/scripts/deploy.sh
+        run: |
+          chmod +x .github/scripts/deploy.sh
+          bash .github/scripts/deploy.sh
