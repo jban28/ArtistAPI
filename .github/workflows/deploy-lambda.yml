@@ -43,8 +43,8 @@ jobs:
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
-        bash ${GITHUB_WORKSPACE}/.github/scripts/changed-files.sh
-        echo "$ALL_CHANGED_FILES"
+          ${GITHUB_WORKSPACE}/.github/scripts/changed-files.sh
+          echo "$ALL_CHANGED_FILES"
         
   test:
     runs-on: ubuntu-latest
