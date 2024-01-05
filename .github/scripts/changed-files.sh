@@ -9,4 +9,4 @@ do
 done
 
 echo "files_to_deploy=${changed_func_files[@]}" >> $GITHUB_OUTPUT
-echo "changes=${#Fruits[@]}" >> $GITHUB_OUTPUT
+echo "changes=${#changed_func_files[@]}" >> $GITHUB_OUTPUT
