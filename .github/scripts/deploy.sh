@@ -4,5 +4,5 @@ do
     str="${file%.py}"
     func_name="ArtistAPI_${str##*/}"
     echo $func_name
-    aws lambda update-function-code --function-name=ArtistAPI_"${func_name}" --zip-file=fileb://lambda.zip
+    aws lambda update-function-code --function-name="${func_name}" --zip-file=fileb://lambda.zip
 done
