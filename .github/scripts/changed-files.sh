@@ -1,0 +1,13 @@
+ALL_CHANGED_FILES=("./lambda-functions/all-images.py" "./lambda-functions/image.py" )
+
+func_files+=($(ls ./lambda-functions/*.py))
+
+for file in "${func_files[@]}"
+do
+    if [[ ${ALL_CHANGED_FILES[@]} =~ $file ]]
+    then
+        changed_func_files+=($file)
+    fi
+done
+
+echo "files_to_deploy=${changed_func_files[@]}" >> $GITHUB_OUTPUT
