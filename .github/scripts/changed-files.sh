@@ -1,5 +1,3 @@
-ALL_CHANGED_FILES=("./lambda-functions/all-images.py" "./lambda-functions/image.py" )
-
 func_files+=($(ls ./lambda-functions/*.py))
 
 for file in "${func_files[@]}"
