@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       changes: ${{ steps.find-changes.outputs.changes }}
-      changed_files: ${{ steps.find-changes.outputs.files_to_deploy }}
+      changed_funcs: ${{ steps.find-changes.outputs.funcs_to_deploy }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -42,5 +42,5 @@ jobs:
 
       - name: Deploy changes
         env: 
-          FUNCS_TO_DEPLOY: ${{ needs.changes.outputs.changed_files }}
+          FUNCS_TO_DEPLOY: ${{ needs.changes.outputs.changed_funcs }}
         run: bash .github/scripts/deploy.sh
