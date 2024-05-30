@@ -1,7 +1,7 @@
 import json
 import os
 import pymongo
-import sha256
+from hashlib import sha256
 import jwt
 
 secret = os.environ["secretKey"]
