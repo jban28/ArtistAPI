@@ -1,5 +1,5 @@
 func_folders+=($(ls src/))
-changed_func_files=()
+changed_funcs=()
 
 for folder in "${func_folders[@]}"
 do
@@ -8,7 +8,7 @@ do
     do
         if [[ ${ALL_CHANGED_FILES[@]} =~ $file ]]
         then
-        echo $folder
+            echo $folder
             changed_funcs+=($folder)
         fi
     done
@@ -16,6 +16,8 @@ done
 
 num="${#changed_funcs[@]}"
 echo $changed_funcs
+echo ${changed_funcs[@]}
+
 
 echo "funcs_to_deploy=${changed_funcs[@]}" >> $GITHUB_OUTPUT
 echo "changes=${num}" >> $GITHUB_OUTPUT
