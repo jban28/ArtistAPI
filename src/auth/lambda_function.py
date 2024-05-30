@@ -1,42 +1,37 @@
 import json
+import jwt
+import os
 
+secret = os.environ["secretKey"]
+root_URL = os.environ["rootURL"]
+db_uri = os.environ["databaseURI"]
 
 def lambda_handler(event, context):
     token = event['authorizationToken']
-    if token == 'allow':
-        print('authorized')
-        response = generatePolicy('user', 'Allow', event['methodArn'])
-    elif token == 'deny':
-        print('unauthorized')
-        response = generatePolicy('user', 'Deny', event['methodArn'])
-    elif token == 'unauthorized':
-        print('unauthorized')
-        raise Exception('Unauthorized')  # Return a 401 Unauthorized response
-        return 'unauthorized'
-    try:
-        return json.loads(response)
-    except BaseException:
-        print('unauthorized')
-        return 'unauthorized'  # Return a 500 error
 
-
-def generatePolicy(principalId, effect, resource):
-    authResponse = {}
-    authResponse['principalId'] = principalId
-    if (effect and resource):
-        policyDocument = {}
-        policyDocument['Version'] = '2012-10-17'
-        policyDocument['Statement'] = []
-        statementOne = {}
-        statementOne['Action'] = 'execute-api:Invoke'
-        statementOne['Effect'] = effect
-        statementOne['Resource'] = resource
-        policyDocument['Statement'] = [statementOne]
-        authResponse['policyDocument'] = policyDocument
-    authResponse['context'] = {
-        "stringKey": "stringval",
-        "numberKey": 123,
-        "booleanKey": True
-    }
-    authResponse_JSON = json.dumps(authResponse)
-    return authResponse_JSON
+    try: 
+        auth = event['headers']['Authorization']
+        token = jwt.decode(auth, secret, algorithms="HS256")
+    except jwt.exceptions.InvalidSignatureError:
+        return "Invalid signature"
+    except:
+        return "other error"
+    else:
+        return {
+            'statusCode': 200,
+            'body': {
+                'policyDocument': {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                        "Action": "execute-api:Invoke",
+                        "Effect": "Allow",
+                        "Resource": "arn:aws:execute-api:eu-west-2:053630928262:k17ufb7rzg/ESTestInvoke-stage/GET/"
+                        }
+                    ]
+                },
+                'context': {
+                    'token': token
+                }
+            }
+        }
