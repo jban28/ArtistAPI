@@ -42,5 +42,5 @@ jobs:
 
       - name: Deploy changes
         env: 
-          FILES_TO_DEPLOY: ${{ needs.changes.outputs.changed_files }}
+          FUNCS_TO_DEPLOY: ${{ needs.changes.outputs.changed_files }}
         run: bash .github/scripts/deploy.sh
