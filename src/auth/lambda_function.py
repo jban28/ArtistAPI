@@ -7,8 +7,6 @@ root_URL = os.environ["rootURL"]
 db_uri = os.environ["databaseURI"]
 
 def lambda_handler(event, context):
-    token = event['authorizationToken']
-
     try: 
         auth = event['headers']['Authorization']
         token = jwt.decode(auth, secret, algorithms="HS256")
@@ -31,7 +29,7 @@ def lambda_handler(event, context):
                     ]
                 },
                 'context': {
-                    'token': token
+                    'artist': token['artist']
                 }
             }
         }
