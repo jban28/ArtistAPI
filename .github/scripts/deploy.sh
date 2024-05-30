@@ -1,4 +1,9 @@
-for func in "${FUNCS_TO_DEPLOY[@]}"
+
+
+IFS=' ' 
+read -ra funcs_to_deploy <<<"${FUNCS_TO_DEPLOY[@]}"
+
+for func in "${funcs_to_deploy}"
 do
     file_path="src/${func}"
     zip -j lambda.zip $file_path
