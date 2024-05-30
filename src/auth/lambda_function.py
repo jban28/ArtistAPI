@@ -11,25 +11,35 @@ def lambda_handler(event, context):
         auth = event['authorizationToken']
         token = jwt.decode(auth, secret, algorithms="HS256")
     except jwt.exceptions.InvalidSignatureError:
-        return "Invalid signature"
+        return {
+            'principalId': token['artist'],
+            'policyDocument': {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                    "Action": "execute-api:Invoke",
+                    "Effect": "Deny",
+                    "Resource": event['methodArn']
+                    }
+                ]
+            }
+        }
     except:
         return "other error"
     else:
         return {
-            'statusCode': 200,
-            'body': {
-                'policyDocument': {
-                    "Version": "2012-10-17",
-                    "Statement": [
-                        {
-                        "Action": "execute-api:Invoke",
-                        "Effect": "Allow",
-                        "Resource": "arn:aws:execute-api:eu-west-2:053630928262:k17ufb7rzg/ESTestInvoke-stage/GET/"
-                        }
-                    ]
-                },
-                'context': {
-                    'artist': token['artist']
-                }
+            'principalId': token['artist'],
+            'policyDocument': {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                    "Action": "execute-api:Invoke",
+                    "Effect": "Allow",
+                    "Resource": event['methodArn']
+                    }
+                ]
+            },
+            'context': {
+                'artist': token['artist']
             }
         }
