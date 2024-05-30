@@ -1,9 +1,9 @@
-func_folders+=($(ls src/))
+func_folders+=($(ls src/functions/))
 changed_funcs=()
 
 for folder in "${func_folders[@]}"
 do
-    func_files=($(ls src/$folder/*.py))
+    func_files=($(ls src/functions/$folder/*.py))
     for file in "${func_files[@]}"
     do
         if [[ ${ALL_CHANGED_FILES[@]} =~ $file ]]

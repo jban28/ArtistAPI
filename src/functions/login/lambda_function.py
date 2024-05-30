@@ -30,7 +30,7 @@ def lambda_handler(event, context):
         else:
             return {
                 'statusCode': 401,
-                'body': json.dumps('Password does not match username')
+                'body': json.dumps('Password does not match username.')
             }
     except:
         return {
