@@ -3,6 +3,9 @@
 IFS=' ' 
 read -ra funcs_to_deploy <<<"${FUNCS_TO_DEPLOY[@]}"
 
+echo $FUNCS_TO_DEPLOY
+echo "${FUNCS_TO_DEPLOY[@]}"
+
 for func in "${funcs_to_deploy}"
 do
     file_path="src/${func}"
