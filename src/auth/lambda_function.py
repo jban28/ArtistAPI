@@ -8,7 +8,7 @@ db_uri = os.environ["databaseURI"]
 
 def lambda_handler(event, context):
     try: 
-        auth = event['headers']['Authorization']
+        auth = event['authorizationToken']
         token = jwt.decode(auth, secret, algorithms="HS256")
     except jwt.exceptions.InvalidSignatureError:
         return "Invalid signature"
