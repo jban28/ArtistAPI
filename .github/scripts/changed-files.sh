@@ -1,16 +1,20 @@
-func_files+=($(ls lambda-functions/*.py))
+func_folders+=($(ls src/))
 changed_func_files=()
 
-for file in "${func_files[@]}"
+for folder in "${func_folders[@]}"
 do
-    if [[ ${ALL_CHANGED_FILES[@]} =~ $file ]]
-    then
-        changed_func_files+=($file)
-    fi
+    func_files+=($(ls folder/*.py))
+    for file in "${func_files[@]}"
+    do
+        if [[ ${ALL_CHANGED_FILES[@]} =~ $file ]]
+        then
+            changed_funcs+=($folder)
+        fi
+    done
 done
 
-num="${#changed_func_files[@]}"
-echo $changed_func_files
+num="${#changed_funcs[@]}"
+echo $changed_funcs
 
-echo "files_to_deploy=${changed_func_files[@]}" >> $GITHUB_OUTPUT
+echo "funcs_to_deploy=${changed_funcs[@]}" >> $GITHUB_OUTPUT
 echo "changes=${num}" >> $GITHUB_OUTPUT

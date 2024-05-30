@@ -1,8 +1,7 @@
-for file in "${FILES_TO_DEPLOY[@]}"
+for func in "${FUNCS_TO_DEPLOY[@]}"
 do
-    zip -j lambda.zip $file
-    str="${file%.py}"
-    func_name="ArtistAPI_${str##*/}"
+    zip -j lambda.zip $func
+    func_name="ArtistAPI_${func}"
     echo $func_name
     aws lambda update-function-code --function-name="${func_name}" --zip-file=fileb://lambda.zip
 done
