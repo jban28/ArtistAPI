@@ -1,6 +1,7 @@
 for func in "${FUNCS_TO_DEPLOY[@]}"
 do
-    zip -j lambda.zip $func
+    file_path="src/${func}"
+    zip -j lambda.zip $file_path
     echo $func
     func_name="ArtistAPI_${func}"
     echo $func_name
