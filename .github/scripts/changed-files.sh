@@ -3,12 +3,12 @@ changed_func_files=()
 
 for folder in "${func_folders[@]}"
 do
-    echo $folder
     func_files=($(ls src/$folder/*.py))
     for file in "${func_files[@]}"
     do
         if [[ ${ALL_CHANGED_FILES[@]} =~ $file ]]
         then
+        echo $folder
             changed_funcs+=($folder)
         fi
     done
