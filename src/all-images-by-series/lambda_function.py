@@ -2,22 +2,26 @@ import json
 import os
 import pymongo
 
-secret = os.environ["secretKey"]
-root_URL = os.environ["rootURL"]
 db_uri = os.environ["databaseURI"]
+root_URL = os.environ["rootURL"]
 
 dbclient = pymongo.MongoClient(db_uri, server_api=pymongo.server_api.ServerApi('1'))
 db = dbclient["artCollections"]
 
 
-def lambda_hander(event, context):
+def lambda_handler(event, context):
     artist = event["queryStringParameters"]["artist"]
+    return {
+        'statusCode': 200,
+        'body': json.dumps(all_images_by_series(artist))
+    }
 
 
 def all_images_by_series(artist):
     image_collection = db['artist']
     image_list_return = {}
     image_list = image_collection.find().sort("sequence", -1)
+    
     for image in image_list:
         image["_id"] = str(image["_id"])
         image["srcFull"] = f"{root_URL}/{image['srcFull']}"
