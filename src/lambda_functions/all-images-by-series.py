@@ -18,7 +18,7 @@ def lambda_handler(event, context):
 
 
 def all_images_by_series(artist):
-    image_collection = db['artist']
+    image_collection = db[artist]
     image_list_return = {}
     image_list = image_collection.find().sort("sequence", -1)
     
