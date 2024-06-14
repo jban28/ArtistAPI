@@ -1,4 +1,4 @@
-funcs_to_deploy=($FILES_TO_DEPLOY)
+funcs_to_deploy=($FUNCS_TO_DEPLOY)
 
 for func_file in "${funcs_to_deploy[@]}"
 do
