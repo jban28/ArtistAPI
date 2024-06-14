@@ -21,4 +21,4 @@ jobs:
         env: 
           DATABASE_URI: ${{ secrets.DATABASE_URI }}
           SECRET_KEY: ${{ secrets.SECRET_KEY }}
-        run: bash .github/aws-setup/create-lambdas.sh
+        run: bash aws-setup/create-lambdas.sh
