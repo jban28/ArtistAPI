@@ -3,6 +3,7 @@ layer_arn="arn:aws:lambda:eu-west-2:053630928262:layer:ArtistAPI_base:16"
 
 for func_file in "${lambda_funcs[@]}"; do
     func_name="${func_file/.py/}"
+    func_name="${func_name##*/}"
     echo $func_name
 
     aws iam create-role \
