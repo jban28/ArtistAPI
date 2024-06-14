@@ -5,7 +5,7 @@ on:
             - autodeploy-setup
 jobs:
   setup-lambda:
-  name: Create lambda functions
+    name: Create lambda functions
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
