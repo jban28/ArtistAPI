@@ -2,8 +2,8 @@ funcs_to_deploy=($FUNCS_TO_DEPLOY)
 
 for func in "${funcs_to_deploy[@]}"
 do
-    file_path="src/${func}"
-    zip -r -j lambda.zip $file_path
+    file_path="src/lambda_functions/${func}.py"
+    zip -j lambda.zip $file_path
     echo $func
     func_name="ArtistAPI_${func}"
     echo $func_name

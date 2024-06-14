@@ -63,6 +63,4 @@ jobs:
           aws-region: eu-west-2
 
       - name: Publish changes to live API
-        env: 
-          FUNCS_TO_DEPLOY: ${{ needs.changes.outputs.changed_funcs }}
         run: bash .github/scripts/publish.sh

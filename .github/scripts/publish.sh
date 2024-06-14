@@ -1,9 +1,8 @@
-funcs_to_deploy=($FUNCS_TO_DEPLOY)
+lambda_funcs=($(ls src/lambda_functions/*.py))
 
-for func in "${funcs_to_deploy[@]}"
-do
-    func_name="ArtistAPI_${func}"
-    echo $func_name
+for func_file in "${lambda_funcs[@]}"; do
+    func_name="${func_file/.py/}"
+    func_name="ArtistAPI_${func_name##*/}"
 
     version=$(aws lambda publish-version --function-name="${func_name}" --query "Version")
     aws lambda update-alias --function-name "${func_name}" --name live --function-version "$version"
