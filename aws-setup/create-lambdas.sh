@@ -8,7 +8,7 @@ for func_file in "${lambda_funcs[@]}"; do
 
     aws iam create-role \
         --role-name "${func_name}_lambda-role" \
-        --assume-role-policy-document "aws-setup/role.json"
+        --assume-role-policy-document "file://aws-setup/role.json"
 
     zip lambda.zip $func_file
 
