@@ -10,6 +10,7 @@ for func_file in "${lambda_funcs[@]}"; do
         --role-name "${func_name}_lambda-role" \
         --assume-role-policy-document "file://aws-setup/role.json"
 
+    rm lambda_function.zip
     zip lambda_function.zip $func_file
 
     aws lambda create-function \
@@ -30,6 +31,7 @@ for func_file in "${lambda_funcs[@]}"; do
     --function-name "$func_name" \
     --name "dev" \
     --function-version "\$LATEST" 
+
 done
 
 aws lambda update-function-configuration \
