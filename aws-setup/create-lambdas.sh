@@ -19,7 +19,7 @@ for func_file in "${lambda_funcs[@]}"; do
     --zip-file "fileb://lambda_function.zip" \
     --handler "${func_name}.lambda_handler" \
     --layers "$layer_arn" \
-    --environment "VARIABLES=\"{databaseURI=$DATABASE_URI,rootURL=https://artist-api.s3.amazonaws.com}\"" 
+    --environment "Variables=\"{databaseURI=$DATABASE_URI,rootURL=https://artist-api.s3.amazonaws.com}\"" 
 
     aws lambda create-alias \
     --function-name "$func_name" \
@@ -34,8 +34,8 @@ done
 
 aws lambda update-function-configuration \
     --function-name ArtistAPI_auth \
-    --environment "VARIABLES=\"{databaseURI=$DATABASE_URI,rootURL=https://artist-api.s3.amazonaws.com,secretKey=$SECRET_KEY}\""
+    --environment "Variables=\"{databaseURI=$DATABASE_URI,rootURL=https://artist-api.s3.amazonaws.com,secretKey=$SECRET_KEY}\""
 
 aws lambda update-function-configuration \
     --function-name ArtistAPI_login_POST \
-    --environment "VARIABLES=\"{databaseURI=$DATABASE_URI,rootURL=https://artist-api.s3.amazonaws.com,secretKey=$SECRET_KEY}\""
+    --environment "Variables=\"{databaseURI=$DATABASE_URI,rootURL=https://artist-api.s3.amazonaws.com,secretKey=$SECRET_KEY}\""
