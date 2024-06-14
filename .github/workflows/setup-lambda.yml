@@ -1,0 +1,24 @@
+name: Setup Lambda Functions
+on:
+    push:
+        branches:
+            - autodeploy-setup
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Configure AWS
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-2
+
+      - name: Deploy Lambdas
+        env: 
+          DATABASE_URI: ${{ secrets.DATABASE_URI }}
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
+        run: bash .github/aws-setup/create-lambdas.sh

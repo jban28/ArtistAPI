@@ -11,10 +11,11 @@ DELETE /image/{id}          delete an image from the S3 bucket and the database
 PUT /image-data/{id}        database entry for an image (not the image itself)
 PUT /reorder                update database entries to reorder images in a series
 
-## Corresponding Lambda Functions/API Gateway endpoints with proxy integration
+## Corresponding API Gateway endpoints with proxy integration
 /all-images                 GET
 /login                      POST
 /image-data                 POST
 /image-data/{id}            PUT
 /image/{id}                 DELETE, PUT
 /reorder                    PUT
+/auth
