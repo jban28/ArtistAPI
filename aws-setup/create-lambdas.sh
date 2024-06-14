@@ -10,7 +10,7 @@ for func_file in "${lambda_funcs[@]}"; do
         --role-name "${func_name}_lambda-role" \
         --assume-role-policy-document "file://aws-setup/role.json"
 
-    zip lambda.zip $func_file
+    zip lambda_function.zip $func_file
 
     aws lambda create-function \
     --function-name "$func_name" \
