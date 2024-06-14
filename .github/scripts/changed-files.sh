@@ -1,17 +1,12 @@
-func_folders+=($(ls src/))
-changed_funcs=()
+changed_func_files=()
 
-for folder in "${func_folders[@]}"
+func_files=($(ls src/lambda_functions/*.py))
+for file in "${func_files[@]}"
 do
-    func_files=($(ls src/$folder/*.py))
-    for file in "${func_files[@]}"
-    do
-        if [[ ${ALL_CHANGED_FILES[@]} =~ $file ]]
-        then
-            echo $folder
-            changed_funcs+=($folder)
-        fi
-    done
+    if [[ ${ALL_CHANGED_FILES[@]} =~ $file ]]
+    then
+        changed_funcs+=($file)
+    fi
 done
 
 num="${#changed_funcs[@]}"
