@@ -4,7 +4,8 @@ on:
         branches:
             - autodeploy-setup
 jobs:
-  setup:
+  setup-lambda:
+  name: Create lambda functions
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
